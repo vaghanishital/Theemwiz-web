@@ -1,0 +1,253 @@
+@media (max-width: 992px) {
+    .pricing-card {
+        flex: 1 1 100%;
+        margin-top: 0 !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero {
+        padding: 0;
+    }
+
+    .hero .row {
+        flex-direction: column-reverse;
+    }
+
+    .hero .col-lg-6 {
+        text-align: center;
+    }
+
+    .hero .btn {
+        width: 100%;
+    }
+
+    .hero-section {
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem 1rem;
+    }
+
+    .hero-person {
+        transform: none;
+        margin-top: 2rem;
+    }
+
+    .hero-person img {
+        height: auto;
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .contact-form {
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+    }
+}
+
+@media (max-width: 575px) {
+    .container {
+        padding: 0 2rem;
+    }
+
+    h1 {
+        font-size: 35px;
+        line-height: normal;
+    }
+
+    h2 {
+        font-size: 30px;
+        line-height: normal;
+    }
+
+    h3 {
+        font-size: 20px;
+        line-height: normal;
+        margin-bottom: 1.4rem;
+    }
+
+    h4 {
+        font-size: 18px;
+        line-height: normal;
+    }
+
+    h5 {
+        font-size: 12px;
+        margin-top: 3rem;
+    }
+
+    p {
+        margin-bottom: 20px;
+    }
+
+    .review {
+        margin: 30px 0;
+    }
+
+    .btn-primary-custom {
+        height: 40px;
+        font-size: 12px;
+    }
+
+    .hero-bg-star {
+        display: none;
+    }
+
+    .logos .logo {
+        justify-content: center;
+        padding: 3rem 0;
+        gap: 2rem;
+    }
+
+    .about {
+        margin-top: 4rem;
+    }
+
+    .about .cards {
+        margin-top: 6rem;
+    }
+
+    .works {
+        margin-top: 3rem;
+    }
+
+    .category-dropdown {
+        display: block;
+    }
+
+    .about .row {
+        --bs-gutter-x: 0;
+    }
+
+    .works .first {
+        margin-top: 2rem;
+    }
+
+    .works .row {
+        margin-bottom: 4rem;
+    }
+
+    .video {
+        margin-top: 4rem;
+        margin-bottom: 3rem;
+    }
+
+    .hero-person {
+        right: 0px;
+        padding-right: 6rem;
+    }
+
+    .portfolio {
+        padding: 1rem 0;
+    }
+
+    .explore-btn {
+        margin-top: 5rem;
+        font-size: 11px;
+    }
+
+    .hero-wrapper {
+        margin-top: 5rem;
+    }
+
+    .pricing-section {
+        padding: 30px 0;
+    }
+
+    .pricing-row {
+        margin-top: 35px;
+    }
+
+    .faq-section {
+        margin: 0;
+    }
+
+    .faq-right {
+        margin: 3rem 0 5rem;
+    }
+
+    .accordion-body {
+        padding: 2rem 2rem;
+    }
+
+    .contact-form {
+        padding: 2rem;
+    }
+
+    .accordion-button {
+        font-size: 20px;
+        padding: 1rem 2rem 1rem 2rem;
+    }
+
+    .accordion-button:not(.collapsed) {
+        padding: 1rem 2rem 0 2rem;
+    }
+
+    .faq-toggle-btn {
+        right: 1rem;
+        width: 20px;
+        height: 20px;
+    }
+
+    .hero-section {
+        padding: 3rem;
+    }
+
+    .hero-center {
+        margin: 3rem 0;
+    }
+
+    .hero-person img {
+        max-width: 150px;
+    }
+
+    .category-menu {
+        display: none;
+    }
+
+    .portfolio-label {
+        bottom: 60px;
+        font-size: 10px;
+    }
+
+    .footer .row {
+        text-align: center;
+    }
+
+    .footer .row h5 {
+        padding-top: 3rem;
+    }
+
+    .footer .social-icons {
+        margin-top: 30px;
+    }
+
+    .footer .footer-bottom {
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer .footer-bottom span {
+        padding-bottom: 2rem;
+
+    }
+
+    .footer .footer-bottom div {
+        margin-bottom: 10px;
+    }
+
+    .bigscreen {
+        display: none;
+    }
+
+    .smallscreen {
+        display: block;
+    }
+
+    .carousel-control {
+        display: none;
+    }
+
+}
